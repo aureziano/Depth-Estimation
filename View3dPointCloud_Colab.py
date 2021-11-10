@@ -8,7 +8,7 @@ import numpy as np
 
 if __name__ == "__main__":
 
-    img = cv2.imread("/content/test_imgs/input2.jpg")
+    img = cv2.imread("/content/Depth-Estimation/test_imgs/input2.jpg")
     intrinsicMat = np.eye(3,dtype=np.float32)
     intrinsicMat[0,0]=427.11285934127466 # fx
     intrinsicMat[0,2]=340.29418100385436 # cx
