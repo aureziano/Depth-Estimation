@@ -1,6 +1,7 @@
 
 ## [Estimativa de Profundidade de Alta Qualidade utilizando Camera Monocular via "Adaptative Bins"](https://arxiv.org/abs/2011.14141)
-
+* por Aureziano Faria de Oliveira 
+* 
 ## Modelos Pré-Treinados
 Os modelos pré-treinados com "NYU depth v2" e "kitti" estão disponíveis [aqui](https://1drv.ms/u/s!AuWRnPR26byUmfRxBQ327hc8eXse2Q?e=AQuYZw)
 
@@ -35,6 +36,11 @@ O parametro 1 é para instalar CUDA e CUNN corretamente, se você já possuir o 
 python infer_video.py --model kitti --input test_video.mp4
 ```
 Obs.: test_video.mp4 é algum vídeo de sua escolha.
+
+##Videos
+* Teste na IARA [link](https://drive.google.com/file/d/13mCBEffJffyW3IfMiscd_LGd7QIvCg6A/view?usp=sharing)
+* Teste no ART [link](https://drive.google.com/file/d/1uVQEkwH3FG37DfqFSDNCnkQAtotPv8Qe/view?usp=sharing)
+* Reconstrução 3D de cena [link](https://drive.google.com/file/d/1D4gJ2SOQs1FMdU1SQi1Hu-FUxOKztI3H/view?usp=sharing)
 
 # Artigo original
 [AdaBins](https://arxiv.org/abs/2011.14141)
